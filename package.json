@@ -1,0 +1,24 @@
+{
+  "name": "image-editor",
+  "version": "1.0.0",
+  "description": "Canvas-based image editor",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://AnishPradhananga@github.com/AnishPradhananga/image-editor.git"
+  },
+  "keywords": [
+    "canvas-based",
+    "image",
+    "editor"
+  ],
+  "author": "'Anish <'anish.logicseed@gmail.com'>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AnishPradhananga/image-editor/issues"
+  },
+  "homepage": "https://github.com/AnishPradhananga/image-editor#readme"
+}
