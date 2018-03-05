@@ -7,19 +7,19 @@ function import_image(){
 }
 
 function position(){
-    console.log("getting position");
+    return "getting position";
 }
 
 function draw(){
-    console.log("drawing");
+    return "drawing";
 }
 
 function erase(){
-    console.log("erasing");
+    return "erasing";
 }
 
 function annotate(){
-    console.log("adding annotation");
+    return "adding annotation";
 }
 
 module.exports = {
