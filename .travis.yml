@@ -5,12 +5,9 @@ cache:
 notifications:
   email: false
 node_js:
-  - '9'
-  - '8'
-  - '6'
-  - '4'
+  - iojs
 script:
-  - npm run test
+  - npm run test:single
 after_success:
   - npm run travis-deploy-once "npm run semantic-release"
 branches:
