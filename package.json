@@ -1,14 +1,17 @@
 {
-  "name": "image-editor",
-  "version": "1.0.0",
-  "description": "Canvas-based image editor",
+  "name": "simple-canvas-editor",
+  "version": "0.0.0-development",
+  "description": "Canvas editor",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha src/index.test.js -w"
+    "commit": "git-cz",
+    "test": "mocha src/index.test.js -w",
+    "semantic-release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://AnishPradhananga@github.com/AnishPradhananga/image-editor.git"
+    "url": "https://github.com/AnishPradhananga/image-editor.git"
   },
   "keywords": [
     "canvas-based",
@@ -23,6 +26,13 @@
   "homepage": "https://github.com/AnishPradhananga/image-editor#readme",
   "devDependencies": {
     "chai": "4.1.2",
-    "mocha": "5.0.1"
+    "commitizen": "2.9.6",
+    "cz-conventional-changelog": "2.1.0",
+    "mocha": "5.0.1",
+    "semantic-release": "^12.4.1",
+    "travis-deploy-once": "^4.3.4"
+  },
+  "czConfig": {
+      "path": "node_modules/cz-conventional-changelog"
   }
 }
