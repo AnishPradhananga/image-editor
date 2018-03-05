@@ -11,7 +11,7 @@
     "test": "mocha src/index.test.js --compilers js:babel-register",
     "cover": "nyc npm run test",
     "prebuild": "rimraf dist",
-    "build": "babel --copy-files --out-dir dist ignore *.test.js src",
+    "build": "babel --copy-files --out-dir dist --ignore *.test.js src",
     "semantic-release": "semantic-release",
     "travis-deploy-once": "travis-deploy-once"
   },
