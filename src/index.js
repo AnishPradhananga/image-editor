@@ -2,6 +2,10 @@
 
 'use strict';
 
+function import_image(){
+    return "getting image...";
+}
+
 function position(){
     console.log("getting position");
 }
@@ -19,8 +23,9 @@ function annotate(){
 }
 
 module.exports = {
-  position: position,
-  draw: draw,
-  erase: erase,
-  annotate: annotate
+    import: import_image,
+    position: position,
+    draw: draw,
+    erase: erase,
+    annotate: annotate
 };
