@@ -5,10 +5,9 @@ cache:
 notifications:
   email: false
 node_js:
-  - 8 
-install:
-  - npm install -g codecov  
+  - 8   
 script:
+  - npm install -g codecov
   - npm run cover
   - npm run check-coverage
   - npm run build
