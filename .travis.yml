@@ -11,7 +11,8 @@ script:
   - npm run check-coverage
   - npm run build
 after_success:
-  - npm run report-coverage	
+  - npm run report-coverage
+  - codecov  
   - npm run travis-deploy-once "npm run semantic-release"
 branches:
   except:
