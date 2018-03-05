@@ -1,13 +1,13 @@
 language: node_js
 cache:
   directories:
-    - ~/.npm
+    - node_modules
 notifications:
   email: false
 node_js:
   - iojs
 script:
-  - npm run test:single
+  - npm run test
 after_success:
   - npm run travis-deploy-once "npm run semantic-release"
 branches:
